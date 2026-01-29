@@ -1,4 +1,5 @@
 package com.example.demo;
+// package com.example.restservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -17,5 +18,11 @@ public class DemoApplication {
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
 		return String.format("Hello, %s!", name);
 	}
+
+	@GetMapping("/bye")
+	public String landing() {
+		return String.format("Welcome to the demo application!");
+	}
+	
 
 }
