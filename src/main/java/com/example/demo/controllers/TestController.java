@@ -16,7 +16,7 @@ public class TestController {
 
     @GetMapping("/")
     public String landing() {
-        return "Welcome to the demo application!";
+        return "Redefining Masculinity through Mental Health, Mentorship, and More";
     }
 
     @GetMapping("/bye")
