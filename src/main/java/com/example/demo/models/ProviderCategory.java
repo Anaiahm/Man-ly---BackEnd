@@ -1,5 +1,9 @@
 package com.example.demo.models;
 
-public class ProviderCategory {
-    
+public enum ProviderCategory {
+    MENTAL_HEALTH,
+    MENTORSHIP_FINANCIAL,
+    MENTORSHIP_CAREER,
+    MENTORSHIP_FAMILY,
+    MENTORSHIP_PERSONAL
 }
