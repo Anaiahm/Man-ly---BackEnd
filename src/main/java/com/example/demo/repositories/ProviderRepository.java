@@ -16,7 +16,6 @@ public class ProviderRepository {
     public ProviderRepository() {
         providers.add(
             new Provider(
-                1L,
                 "Dr. Marcus Hill",
                 "Licensed Therapist",
                 "Specializes in men's mental health and trauma.",
@@ -26,7 +25,6 @@ public class ProviderRepository {
 
         providers.add(
             new Provider(
-                2L,
                 "Angela Brooks",
                 "Career Mentor",
                 "Helps professionals navigate career transitions.",
@@ -36,7 +34,6 @@ public class ProviderRepository {
 
         providers.add(
             new Provider(
-                3L,
                 "David Chen",
                 "Financial Coach",
                 "Focuses on budgeting, debt, and generational wealth.",
