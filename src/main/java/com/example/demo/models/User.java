@@ -28,7 +28,7 @@ public class User {
     private String profilePhotoUrl;
 
     // Unidirectional Many-to-Many to Provider
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
         name = "user_care_team",
         joinColumns = @JoinColumn(name = "user_id"),
