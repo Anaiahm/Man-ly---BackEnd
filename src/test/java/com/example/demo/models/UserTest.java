@@ -11,7 +11,9 @@ class UserTest {
         User user = new User(
                 "testuser",
                 "test@example.com",
-                "password123"
+                "password123",
+                "Test User",
+                null
         );
 
         assertEquals("testuser", user.getUsername());
@@ -24,7 +26,9 @@ class UserTest {
         User user = new User(
                 "testuser",
                 "test@example.com",
-                "password123"
+                "password123",
+                "Test User",
+                null       
         );
 
         user.setProfilePhotoUrl("https://example.com/photo.jpg");
@@ -37,7 +41,9 @@ class UserTest {
         User user = new User(
                 "testuser",
                 "test@example.com",
-                "password123"
+                "password123",
+                "Test User",
+                null   
         );
 
         assertNull(user.getProfilePhotoUrl());
