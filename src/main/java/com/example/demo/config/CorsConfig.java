@@ -14,9 +14,8 @@ public class CorsConfig implements WebMvcConfigurer {
                         "http://localhost:5173",
                         "https://man-ly.netlify.app"
                 )
-                .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                .allowedHeaders("*")
-                .allowCredentials(true);
+                .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
+                .allowedHeaders("*");
+                // 🚫 remove allowCredentials(true)
     }
-    
 }
